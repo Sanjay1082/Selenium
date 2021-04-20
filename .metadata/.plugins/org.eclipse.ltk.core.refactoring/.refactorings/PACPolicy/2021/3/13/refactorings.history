@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.policy.pac.extendreport&apos; to &apos;Module7/src&apos;&#x0D;&#x0A;- Original project: &apos;PACPolicy&apos;&#x0D;&#x0A;- Destination element: &apos;Module7/src&apos;&#x0D;&#x0A;- Original element: &apos;PACPolicy/src/main/java/com.policy.pac.extendreport&apos;" description="Copy package" destination="=Module7/src" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.policy.pac.extendreport" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1616416852155" version="1.0"/>
+</session>

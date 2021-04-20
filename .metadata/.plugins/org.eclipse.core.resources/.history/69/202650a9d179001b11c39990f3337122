@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="HomePageTest">
+    <classes>
+      <class name="com.policy.pac.tests.HomePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="NewQuotePageTest">
+    <classes>
+      <class name="com.policy.pac.tests.NewQuotePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="ApplicantPageTest">
+    <classes>
+      <class name="com.policy.pac.tests.ApplicantPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="PolicyPageTest">
+    <classes>
+      <class name="com.policy.pac.tests.PolicyPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="CoveragePageTest">
+    <classes>
+      <class name="com.policy.pac.tests.CoveragePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="EducatioRiskManagementPageTest">
+    <classes>
+      <class name="com.policy.pac.tests.EducatioRiskManagementPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="ClassDeterminationPageTest">
+    <classes>
+      <class name="com.policy.pac.tests.ClassDeterminationPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="PaymentplanPageTest">
+    <classes>
+      <class name="com.policy.pac.tests.PaymentplanPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="PricingPageTest">
+    <classes>
+      <class name="com.policy.pac.tests.PricingPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

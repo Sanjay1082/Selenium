@@ -1,0 +1,9 @@
+OmsnicDomainUser = schoudhary
+OmsnicDomainPass = T@ra_1082
+
+URL = http://172.16.110.50:8080/ExpressQA/default.aspx
+
+UserName = schoudhary_uwmgr
+Password = OMSNICdct6133*
+
+browser = chrome

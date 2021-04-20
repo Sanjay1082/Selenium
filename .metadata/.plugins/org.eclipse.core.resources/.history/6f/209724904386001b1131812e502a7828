@@ -1,0 +1,42 @@
+package com.dummy.response;
+
+import com.dummy.data.Dummyresponse;
+
+import io.restassured.path.json.JsonPath;
+
+public class DummyresponseTest {
+
+	public static void main(String[] args) {
+	
+		String response = Dummyresponse.response;
+		System.out.println(response);
+		JsonPath js =Dummyresponse.getParseresponse(response);
+		
+		int numberofcousrse = js.getInt("courses.size()");
+		System.out.println(numberofcousrse);
+		
+		System.out.println();
+		
+		int purcharseAmount = js.getInt("dashboard.purchaseAmount");
+		System.out.println(purcharseAmount);
+		
+		System.out.println();
+		
+		String Title = js.getString("courses[0].title");
+		int Price = js.getInt("courses[0].price");
+		System.out.println(Title);
+		
+		System.out.println();
+
+		
+		for(int i=0; i<numberofcousrse; i++)
+		{
+			System.out.println("Title : "+js.getString("courses["+i+"].title")+", Price : "+js.getInt("courses["+i+"].price"));
+		}
+		
+		System.out.println(js.getString("courses[2].copies"));
+		System.out.println();
+		
+	}
+
+}

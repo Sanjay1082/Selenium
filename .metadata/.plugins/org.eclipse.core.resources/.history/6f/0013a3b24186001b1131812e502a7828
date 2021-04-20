@@ -1,0 +1,20 @@
+package com.dummy.response;
+
+import com.dummy.data.Dummyresponse;
+
+import io.restassured.path.json.JsonPath;
+
+public class DummyresponseTest {
+
+	public static void main(String[] args) {
+	
+		String response = Dummyresponse.response;
+		System.out.println(response);
+		JsonPath js =Dummyresponse.getParseresponse(response);
+		
+		int numberofcousrse = js.getInt("courses");
+		System.out.println(numberofcousrse);
+
+	}
+
+}

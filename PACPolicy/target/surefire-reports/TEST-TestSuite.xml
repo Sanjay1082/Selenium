@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="12" failures="3" name="TestSuite" time="421.324" errors="0" skipped="0">
+  <properties>
+    <property name="JOB_NAME" value="PolicyPACTestSuite"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/PolicyPACTestSuite/33/display/redirect?page=tests"/>
+    <property name="NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\M1056369\.jenkins"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="HUDSON_SERVER_COOKIE" value="605b3cd41a309051"/>
+    <property name="POM_ARTIFACTID" value="PACPolicy"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="POM_DISPLAYNAME" value="PACPolicy"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="TEMP" value="C:\Users\M1056369\AppData\Local\Temp"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="11.0.10+8-LTS-162"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="user.name" value="M1056369"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="PolicyPACTestSuite"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/PolicyPACTestSuite/33/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#33"/>
+    <property name="OneDrive" value="C:\Users\M1056369\OneDrive - Mindtree Limited"/>
+    <property name="sun.boot.library.path" value="C:\Users\M1056369\Desktop\Selenium\jdk-11.0.10_windows-x64_bin\jdk-11.0.10\bin"/>
+    <property name="OneDriveCommercial" value="C:\Users\M1056369\OneDrive - Mindtree Limited"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="LOCALAPPDATA" value="C:\Users\M1056369\AppData\Local"/>
+    <property name="java.version" value="11.0.10"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERNAME" value="M1056369"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="BUILD_ID" value="33"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="maven.conf" value="C:\Users\M1056369\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven\conf"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Users\M1056369\Desktop\Selenium\jdk-11.0.10_windows-x64_bin\jdk-11.0.10"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="=ExitCode" value="00000000"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/PolicyPACTestSuite/33/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\M1056369\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/PolicyPACTestSuite/33/display/redirect?page=artifacts"/>
+    <property name="java.vm.version" value="11.0.10+8-LTS-162"/>
+    <property name="user.variant" value=""/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/PolicyPACTestSuite/display/redirect"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="MINDTREE"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="USERDNSDOMAIN" value="mindtree.com"/>
+    <property name="HOMEPATH" value="\Users\M1056369"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="COMPUTERNAME" value="MT-PF14FL5R"/>
+    <property name="user.script" value=""/>
+    <property name="POM_GROUPID" value="PolicyPACAutomation"/>
+    <property name="user.home" value="C:\Users\M1056369"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-PolicyPACTestSuite-33"/>
+    <property name="JENKINS_SERVER_COOKIE" value="605b3cd41a309051"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\M1056369"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="C:\Users\M1056369\Desktop\Selenium\jdk-11.0.10_windows-x64_bin\jdk-11.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\M1056369\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\M1056369\Desktop\Selenium\jdk-11.0.10_windows-x64_bin\jdk-11.0.10\bin;."/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\M1056369\AppData\Roaming"/>
+    <property name="ZES_ENABLE_SYSMAN" value="1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\M1056369\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven"/>
+    <property name="QIP12668" value="0"/>
+    <property name="java.class.path" value="C:\Users\M1056369\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\M1056369\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven\boot\plexus-classworlds-2.6.0.jar;C:\Users\M1056369\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\M1056369\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven C:\Users\M1056369\.jenkins\war\WEB-INF\lib\remoting-4.6.jar C:\Users\M1056369\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\M1056369\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 52869"/>
+    <property name="Path" value="C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\M1056369\Desktop\Selenium\jdk-11.0.10_windows-x64_bin\jdk-11.0.10\bin"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="M2_HOME" value="C:\Users\M1056369\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="java.io.tmpdir" value="C:\Users\M1056369\AppData\Local\Temp\"/>
+    <property name="HUDSON_HOME" value="C:\Users\M1056369\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\M1056369\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/PolicyPACTestSuite/33/"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.dir" value="C:\Users\M1056369\eclipse-workspace\PACPolicy"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/PolicyPACTestSuite/"/>
+    <property name="LOGONSERVER" value="\\MT-PF14FL5R"/>
+    <property name="USERDOMAIN" value="MINDTREE"/>
+    <property name="MAVEN_HOME" value="C:\Users\M1056369\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="33"/>
+    <property name="PROCESSOR_REVISION" value="8e0c"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="=C:" value="C:\Users\M1056369\Desktop\Selenium"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\M1056369\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\M1056369\.jenkins\workspace\PolicyPACTestSuite@tmp"/>
+    <property name="WORKSPACE" value="C:\Users\M1056369\.jenkins\workspace\PolicyPACTestSuite"/>
+    <property name="maven3.interceptor.common" value="C:\Users\M1056369\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft Azure Information Protection\Powershell"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="java.vendor.version" value="18.9"/>
+  </properties>
+  <testcase classname="com.policy.pac.tests.ApplicantPageTest" name="applicantTest" time="28.961"/>
+  <testcase classname="com.policy.pac.tests.NewQuotePageTest" name="populatedataonnewquotepageTest" time="12.43"/>
+  <testcase classname="com.policy.pac.tests.ClassDeterminationPageTest" name="EducatioRiskManagementTest" time="38.962"/>
+  <testcase classname="com.policy.pac.tests.PaymentplanPageTest" name="EducatioRiskManagementTest" time="27.139"/>
+  <testcase classname="com.policy.pac.tests.CoveragePageTest" name="CoveragepageTest" time="33.199"/>
+  <testcase classname="com.policy.pac.tests.PolicyPageTest" name="policyTest" time="33.058"/>
+  <testcase classname="com.policy.pac.tests.EducatioRiskManagementPageTest" name="EducatioRiskManagementTest" time="36.848"/>
+  <testcase classname="com.policy.pac.tests.PricingPageTest" name="EducatioRiskManagementTest" time="56.426">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@fieldref=&apos;PolicySummary.PolicyNumber&apos;]&quot;}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MT-PF14FL5R&apos;, ip: &apos;172.16.8.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\M1056369\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cb35f155b5e2e18ce46e85344bf63961
+*** Element info: {Using=xpath, value=.//*[@fieldref=&apos;PolicySummary.PolicyNumber&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@fieldref=&apos;PolicySummary.PolicyNumber&apos;]&quot;}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MT-PF14FL5R&apos;, ip: &apos;172.16.8.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\M1056369\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cb35f155b5e2e18ce46e85344bf63961
+*** Element info: {Using=xpath, value=.//*[@fieldref=&apos;PolicySummary.PolicyNumber&apos;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at com.policy.pac.tests.PricingPageTest.EducatioRiskManagementTest(PricingPageTest.java:138)
+</failure>
+    <system-out>Data is : Arthur J Gallagher Risk Management Srvs, Inc (IL)
+Data is : Fortress
+Data is : AK
+Data is : Individual
+Data is : Primary PL
+Data is : Test Party 2 - AK
+
+Data is : Arthur J Gallagher Risk Management Srvs, Inc (IL)
+Data is : Fortress
+Data is : AZ
+Data is : Individual
+Data is : Primary PL
+Data is : Test Party 2 - AZ
+
+Data is : Arthur J Gallagher Risk Management Srvs, Inc (IL)
+Data is : Fortress
+Data is : AK
+Data is : Individual
+Data is : Primary PL
+Data is : Test Party 2 - AK
+
+Data is : Arthur J Gallagher Risk Management Srvs, Inc (IL)
+Data is : Fortress
+Data is : AZ
+Data is : Individual
+Data is : Primary PL
+Data is : Test Party 2 - AZ
+
+Before navigating to: &apos;http://schoudhary:T@ra_1082@172.16.110.50:8080/ExpressQA/default.aspx&apos;
+Navigated to:&apos;http://schoudhary:T@ra_1082@172.16.110.50:8080/ExpressQA/default.aspx&apos;
+Trying to find Element By : By.xpath: .//a[@id=&apos;id_New&apos;]/span
+Found Element By : By.xpath: .//a[@id=&apos;id_New&apos;]/span
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (cb35f155b5e2e18ce46e85344bf63961)] -&gt; xpath: .//a[@id=&apos;id_New&apos;]/span]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (cb35f155b5e2e18ce46e85344bf63961)] -&gt; xpath: .//a[@id=&apos;id_New&apos;]/span]
+Trying to find Element By : By.xpath: .//div/div[label[text()=&apos;Agency:&apos;]]/following-sibling::div/div/div
+Found Element By : By.xpath: .//div/div[label[text()=&apos;Agency:&apos;]]/following-sibling::div/div/div
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (cb35f155b5e2e18ce46e85344bf63961)] -&gt; xpath: .//div/div[label[text()=&apos;Agency:&apos;]]/following-sibling::div/div/div]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (cb35f155b5e2e18ce46e85344bf63961)] -&gt; xpath: .//div/div[label[text()=&apos;Agency:&apos;]]/following-sibling::div/div/div]
+Trying to find Element By : By.xpath: .//li[@unselectable=&apos;on&apos; and text()=&apos;Arthur J Gallagher Risk Management Srvs, Inc (IL)&apos;]
+Found Element By : By.xpath: .//li[@unselectable=&apos;on&apos; and text()=&apos;Arthur J Gallagher Risk Management Srvs, Inc (IL)&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (cb35f155b5e2e18ce46e85344bf63961)] -&gt; xpath: .//li[@unselectable=&apos;on&apos; and text()=&apos;Arthur J Gallagher Risk Management Srvs, Inc (IL)&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (cb35f155b5e2e18ce46e85344bf63961)] -&gt; xpath: .//li[@unselectable=&apos;on&apos; and text()=&apos;Arthur J Gallagher Risk Management Srvs, Inc (IL)&apos;]]
+Trying to find Element By : By.xpath: .//input[@fieldref=&apos;data.AgencyID&apos;]
+Found Element By : By.xpath: .//input[@fieldref=&apos;data.AgencyID&apos;]
+Trying to find Element By : By.xpath: .//input[@fieldref=&apos;PolicyInput.WritingCompany&apos;]
+Found Element By : By.xpath: .//input[@fieldref=&apos;PolicyInput.WritingCompany&apos;]
+Trying to find Element By : By.xpath: .//input[@fieldref=&apos;PolicyInput.EffectiveDate&apos;]
+Found Element By : By.xpath: .//input[@fieldref=&apos;PolicyInput.EffectiveDate&apos;]
+Trying to find Element By : By.xpath: .//div/div[label[text()=&apos;State&apos;]]/following-sibling::div/div/div
+Found Element By : By.xpath: .//div/div[label[text()=&apos;State&apos;]]/following-sibling::div/div/div
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (cb35f155b5e2e18ce46e85344bf63961)] -&gt; xpath: .//div/div[label[text()=&apos;State&apos;]]/following-sibling::div/div/div]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (cb35f155b5e2e18ce46e85344bf63961)] -&gt; xpath: .//div/div[label[text()=&apos;State&apos;]]/following-sibling::div/div/div]
+Trying to find Element By : By.xpath: .//div[@fieldref=&apos;data.State&apos;]/ul/li[@unselectable=&apos;on&apos; and text()=&apos;AK&apos;]
+Found Element By : By.xpath: .//div[@fieldref=&apos;data.State&apos;]/ul/li[@unselectable=&apos;on&apos; and text()=&apos;AK&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (cb35f155b5e2e18ce46e85344bf63961)] -&gt; xpath: .//div[@fieldref=&apos;data.State&apos;]/ul/li[@unselectable=&apos;on&apos; and text()=&apos;AK&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (cb35f155b5e2e18ce46e85344bf63961)] -&gt; xpath: .//div[@fieldref=&apos;data.State&apos;]/ul/li[@unselectable=&apos;on&apos; and text()=&apos;AK&apos;]]
+Trying to find Element By : By.xpath: .//input[@fieldref=&apos;data.State&apos;]
+Found Element By : By.xpath: .//input[@fieldref=&apos;data.State&apos;]
+Trying to find Element By : By.xpath: .//input[@fieldref=&apos;PolicyInput.PolicyType&apos;]
+Found Element By : By.xpath: .//input[@fieldref=&apos;PolicyInput.PolicyType&apos;]
+Trying to find Element By : By.xpath: .//input[@fieldref=&apos;PolicyInput.ProductType&apos;]
+Found Element By : By.xpath: .//input[@fieldref=&apos;PolicyInput.ProductType&apos;]
+Trying to find Element By : By.xpath: .//span[contains(text(),&apos;Start&apos;)]
+Found Element By : By.xpath: .//span[contains(text(),&apos;Start&apos;)]
+Trying to find Element By : By.xpath: .//div[h2[text()=&apos;Applicant Information&apos;]]/child::div//a[contains(@id,&apos;anchorId&apos;)]
+Found Element By : By.xpath: .//div[h2[text()=&apos;Applicant Information&apos;]]/child::div//a[contains(@id,&apos;anchorId&apos;)]
+Trying to find Element By : By.xpath: .//iframe[contains(@id,&apos;dctPopup_dctPopupWindow&apos;)]
+Found Element By : By.xpath: .//iframe[contains(@id,&apos;dctPopup_dctPopupWindow&apos;)]
+Trying to find Element By : By.xpath: .//*[@fieldref=&apos;SD_PartyInput.PartyName&apos;]
+Found Element By : By.xpath: .//*[@fieldref=&apos;SD_PartyInput.PartyName&apos;]
+Trying to find Element By : By.className: g-btn-text
+Found Element By : By.className: g-btn-text
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (cb35f155b5e2e18ce46e85344bf63961)] -&gt; class name: g-btn-text]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (cb35f155b5e2e18ce46e85344bf63961)] -&gt; class name: g-btn-text]
+Trying to find Element By : By.xpath: .//a[@id=&apos;dctGridLink&apos; and text()=&apos;Select&apos;]
+Found Element By : By.xpath: .//a[@id=&apos;dctGridLink&apos; and text()=&apos;Select&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (cb35f155b5e2e18ce46e85344bf63961)] -&gt; xpath: .//a[@id=&apos;dctGridLink&apos; and text()=&apos;Select&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (cb35f155b5e2e18ce46e85344bf63961)] -&gt; xpath: .//a[@id=&apos;dctGridLink&apos; and text()=&apos;Select&apos;]]
+Trying to find Element By : By.xpath: .//div[@id=&apos;body&apos; and //h2[text()=&apos;Billing Address&apos;]]/following-sibling::div//a
+Found Element By : By.xpath: .//div[@id=&apos;body&apos; and //h2[text()=&apos;Billing Address&apos;]]/following-sibling::div//a
+Trying to find Element By : By.xpath: .//*[@fieldref=&apos;PolicyInput.RetroDate&apos;]
+Found Element By : By.xpath: .//*[@fieldref=&apos;PolicyInput.RetroDate&apos;]
+Trying to find Element By : By.xpath: .//div[h2[text()=&apos;Office Locations&apos;]]/following-sibling::div//a[contains(@id,&apos;anchorId&apos;)]
+Found Element By : By.xpath: .//div[h2[text()=&apos;Office Locations&apos;]]/following-sibling::div//a[contains(@id,&apos;anchorId&apos;)]
+Trying to find Element By : By.xpath: .//*[@fieldref=&apos;LocationInput.ZipCode&apos;]
+Found Element By : By.xpath: .//*[@fieldref=&apos;LocationInput.ZipCode&apos;]
+Trying to find Element By : By.xpath: .//div[//label[text()=&apos;# of Hours Worked&apos;]]/following-sibling::div//a[contains(@id,&apos;anchorId&apos;)]
+Found Element By : By.xpath: .//div[//label[text()=&apos;# of Hours Worked&apos;]]/following-sibling::div//a[contains(@id,&apos;anchorId&apos;)]
+Trying to find Element By : By.xpath: .//div[@id=&apos;body&apos; and //h2[text()=&apos;Office Locations&apos;]]/following-sibling::div//div[@id=&apos;next&apos;]/a
+Found Element By : By.xpath: .//div[@id=&apos;body&apos; and //h2[text()=&apos;Office Locations&apos;]]/following-sibling::div//div[@id=&apos;next&apos;]/a
+Trying to find Element By : By.xpath: .//div[//h2[text()=&apos;Included Coverages&apos;]]/following-sibling::div[@id=&apos;next&apos;]//a
+Found Element By : By.xpath: .//div[//h2[text()=&apos;Included Coverages&apos;]]/following-sibling::div[@id=&apos;next&apos;]//a
+Trying to find Element By : By.xpath: .//div[//div[text()=&apos;Risk Management&apos;]]/following-sibling::div[@id=&apos;next&apos;]//a
+Found Element By : By.xpath: .//div[//div[text()=&apos;Risk Management&apos;]]/following-sibling::div[@id=&apos;next&apos;]//a
+Trying to find Element By : By.xpath: .//li[a[text()=&apos;Payment Details&apos;]]/a
+Found Element By : By.xpath: .//li[a[text()=&apos;Payment Details&apos;]]/a
+Trying to find Element By : By.xpath: .//input[@fieldref=&apos;BillingKeys.BillClass&apos;]
+Found Element By : By.xpath: .//input[@fieldref=&apos;BillingKeys.BillClass&apos;]
+Trying to find Element By : By.xpath: .//div[//label[text()=&apos;Cash With Transaction&apos;]]/following-sibling::div//a[span[text()=&apos;Previous&apos;]]
+Found Element By : By.xpath: .//div[//label[text()=&apos;Cash With Transaction&apos;]]/following-sibling::div//a[span[text()=&apos;Previous&apos;]]
+Trying to find Element By : By.xpath: .//div[//label[text()=&apos;Total Charge&apos;]]/following-sibling::div//a[span[text()=&apos;Issue&apos;]]
+Found Element By : By.xpath: .//div[//label[text()=&apos;Total Charge&apos;]]/following-sibling::div//a[span[text()=&apos;Issue&apos;]]
+Trying to find Element By : By.xpath: .//*[@fieldref=&apos;PolicySummary.PolicyNumber&apos;]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@fieldref=&apos;PolicySummary.PolicyNumber&apos;]&quot;}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MT-PF14FL5R&apos;, ip: &apos;172.16.8.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\M1056369\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cb35f155b5e2e18ce46e85344bf63961
+*** Element info: {Using=xpath, value=.//*[@fieldref=&apos;PolicySummary.PolicyNumber&apos;]}
+</system-out>
+    <system-err>Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 34558
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 10, 2021 3:24:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.policy.pac.tests.PricingPageTest" name="EducatioRiskManagementTest" time="54.476"/>
+  <testcase classname="com.policy.pac.tests.PricingPageTest" name="EducatioRiskManagementTest" time="40.16">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@fieldref=&apos;PolicySummary.PolicyNumber&apos;]&quot;}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MT-PF14FL5R&apos;, ip: &apos;172.16.8.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\M1056369\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73a84f568587feb844ffa269f70b3802
+*** Element info: {Using=xpath, value=.//*[@fieldref=&apos;PolicySummary.PolicyNumber&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@fieldref=&apos;PolicySummary.PolicyNumber&apos;]&quot;}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MT-PF14FL5R&apos;, ip: &apos;172.16.8.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\M1056369\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73a84f568587feb844ffa269f70b3802
+*** Element info: {Using=xpath, value=.//*[@fieldref=&apos;PolicySummary.PolicyNumber&apos;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at com.policy.pac.tests.PricingPageTest.EducatioRiskManagementTest(PricingPageTest.java:138)
+</failure>
+    <system-out>Before navigating to: &apos;http://schoudhary:T@ra_1082@172.16.110.50:8080/ExpressQA/default.aspx&apos;
+Navigated to:&apos;http://schoudhary:T@ra_1082@172.16.110.50:8080/ExpressQA/default.aspx&apos;
+Trying to find Element By : By.xpath: .//a[@id=&apos;id_New&apos;]/span
+Found Element By : By.xpath: .//a[@id=&apos;id_New&apos;]/span
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (73a84f568587feb844ffa269f70b3802)] -&gt; xpath: .//a[@id=&apos;id_New&apos;]/span]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (73a84f568587feb844ffa269f70b3802)] -&gt; xpath: .//a[@id=&apos;id_New&apos;]/span]
+Trying to find Element By : By.xpath: .//div/div[label[text()=&apos;Agency:&apos;]]/following-sibling::div/div/div
+Found Element By : By.xpath: .//div/div[label[text()=&apos;Agency:&apos;]]/following-sibling::div/div/div
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (73a84f568587feb844ffa269f70b3802)] -&gt; xpath: .//div/div[label[text()=&apos;Agency:&apos;]]/following-sibling::div/div/div]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (73a84f568587feb844ffa269f70b3802)] -&gt; xpath: .//div/div[label[text()=&apos;Agency:&apos;]]/following-sibling::div/div/div]
+Trying to find Element By : By.xpath: .//li[@unselectable=&apos;on&apos; and text()=&apos;Arthur J Gallagher Risk Management Srvs, Inc (IL)&apos;]
+Found Element By : By.xpath: .//li[@unselectable=&apos;on&apos; and text()=&apos;Arthur J Gallagher Risk Management Srvs, Inc (IL)&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (73a84f568587feb844ffa269f70b3802)] -&gt; xpath: .//li[@unselectable=&apos;on&apos; and text()=&apos;Arthur J Gallagher Risk Management Srvs, Inc (IL)&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (73a84f568587feb844ffa269f70b3802)] -&gt; xpath: .//li[@unselectable=&apos;on&apos; and text()=&apos;Arthur J Gallagher Risk Management Srvs, Inc (IL)&apos;]]
+Trying to find Element By : By.xpath: .//input[@fieldref=&apos;data.AgencyID&apos;]
+Found Element By : By.xpath: .//input[@fieldref=&apos;data.AgencyID&apos;]
+Trying to find Element By : By.xpath: .//input[@fieldref=&apos;PolicyInput.WritingCompany&apos;]
+Found Element By : By.xpath: .//input[@fieldref=&apos;PolicyInput.WritingCompany&apos;]
+Trying to find Element By : By.xpath: .//input[@fieldref=&apos;PolicyInput.EffectiveDate&apos;]
+Found Element By : By.xpath: .//input[@fieldref=&apos;PolicyInput.EffectiveDate&apos;]
+Trying to find Element By : By.xpath: .//div/div[label[text()=&apos;State&apos;]]/following-sibling::div/div/div
+Found Element By : By.xpath: .//div/div[label[text()=&apos;State&apos;]]/following-sibling::div/div/div
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (73a84f568587feb844ffa269f70b3802)] -&gt; xpath: .//div/div[label[text()=&apos;State&apos;]]/following-sibling::div/div/div]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (73a84f568587feb844ffa269f70b3802)] -&gt; xpath: .//div/div[label[text()=&apos;State&apos;]]/following-sibling::div/div/div]
+Trying to find Element By : By.xpath: .//div[@fieldref=&apos;data.State&apos;]/ul/li[@unselectable=&apos;on&apos; and text()=&apos;AK&apos;]
+Found Element By : By.xpath: .//div[@fieldref=&apos;data.State&apos;]/ul/li[@unselectable=&apos;on&apos; and text()=&apos;AK&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (73a84f568587feb844ffa269f70b3802)] -&gt; xpath: .//div[@fieldref=&apos;data.State&apos;]/ul/li[@unselectable=&apos;on&apos; and text()=&apos;AK&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (73a84f568587feb844ffa269f70b3802)] -&gt; xpath: .//div[@fieldref=&apos;data.State&apos;]/ul/li[@unselectable=&apos;on&apos; and text()=&apos;AK&apos;]]
+Trying to find Element By : By.xpath: .//input[@fieldref=&apos;data.State&apos;]
+Found Element By : By.xpath: .//input[@fieldref=&apos;data.State&apos;]
+Trying to find Element By : By.xpath: .//input[@fieldref=&apos;PolicyInput.PolicyType&apos;]
+Found Element By : By.xpath: .//input[@fieldref=&apos;PolicyInput.PolicyType&apos;]
+Trying to find Element By : By.xpath: .//input[@fieldref=&apos;PolicyInput.ProductType&apos;]
+Found Element By : By.xpath: .//input[@fieldref=&apos;PolicyInput.ProductType&apos;]
+Trying to find Element By : By.xpath: .//span[contains(text(),&apos;Start&apos;)]
+Found Element By : By.xpath: .//span[contains(text(),&apos;Start&apos;)]
+Trying to find Element By : By.xpath: .//div[h2[text()=&apos;Applicant Information&apos;]]/child::div//a[contains(@id,&apos;anchorId&apos;)]
+Found Element By : By.xpath: .//div[h2[text()=&apos;Applicant Information&apos;]]/child::div//a[contains(@id,&apos;anchorId&apos;)]
+Trying to find Element By : By.xpath: .//iframe[contains(@id,&apos;dctPopup_dctPopupWindow&apos;)]
+Found Element By : By.xpath: .//iframe[contains(@id,&apos;dctPopup_dctPopupWindow&apos;)]
+Trying to find Element By : By.xpath: .//*[@fieldref=&apos;SD_PartyInput.PartyName&apos;]
+Exception occured: org.openqa.selenium.NoSuchWindowException: no such window
+  (Session info: chrome=88.0.4324.190)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MT-PF14FL5R&apos;, ip: &apos;172.16.8.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\M1056369\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73a84f568587feb844ffa269f70b3802
+*** Element info: {Using=xpath, value=.//*[@fieldref=&apos;SD_PartyInput.PartyName&apos;]}
+Faced issue while searcing party record
+Trying to find Element By : By.xpath: .//div[@id=&apos;body&apos; and //h2[text()=&apos;Billing Address&apos;]]/following-sibling::div//a
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//div[@id=&apos;body&apos; and //h2[text()=&apos;Billing Address&apos;]]/following-sibling::div//a&quot;}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MT-PF14FL5R&apos;, ip: &apos;172.16.8.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\M1056369\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73a84f568587feb844ffa269f70b3802
+*** Element info: {Using=xpath, value=.//div[@id=&apos;body&apos; and //h2[text()=&apos;Billing Address&apos;]]/following-sibling::div//a}
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//div[@id=&apos;body&apos; and //h2[text()=&apos;Billing Address&apos;]]/following-sibling::div//a&quot;}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MT-PF14FL5R&apos;, ip: &apos;172.16.8.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\M1056369\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73a84f568587feb844ffa269f70b3802
+*** Element info: {Using=xpath, value=.//div[@id=&apos;body&apos; and //h2[text()=&apos;Billing Address&apos;]]/following-sibling::div//a}
+Faced issue on policy page
+Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MT-PF14FL5R&apos;, ip: &apos;172.16.8.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\M1056369\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73a84f568587feb844ffa269f70b3802
+Faced issue on Coverage page
+Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MT-PF14FL5R&apos;, ip: &apos;172.16.8.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\M1056369\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73a84f568587feb844ffa269f70b3802
+Faced issue on Edu and Rsk page
+Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MT-PF14FL5R&apos;, ip: &apos;172.16.8.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\M1056369\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73a84f568587feb844ffa269f70b3802
+Faced issue on Class Determination page
+Exception occured: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MT-PF14FL5R&apos;, ip: &apos;172.16.8.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.10&apos;
+Driver info: driver.version: RemoteWebDriver
+Faced issue on Payment plan page
+Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MT-PF14FL5R&apos;, ip: &apos;172.16.8.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\M1056369\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73a84f568587feb844ffa269f70b3802
+Faced issue on Payment plan page
+Trying to find Element By : By.xpath: .//*[@fieldref=&apos;PolicySummary.PolicyNumber&apos;]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@fieldref=&apos;PolicySummary.PolicyNumber&apos;]&quot;}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MT-PF14FL5R&apos;, ip: &apos;172.16.8.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\M1056369\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73a84f568587feb844ffa269f70b3802
+*** Element info: {Using=xpath, value=.//*[@fieldref=&apos;PolicySummary.PolicyNumber&apos;]}
+</system-out>
+    <system-err>Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 34820
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 10, 2021 3:27:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.policy.pac.tests.PricingPageTest" name="EducatioRiskManagementTest" time="57.53">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@fieldref=&apos;PolicySummary.PolicyNumber&apos;]&quot;}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MT-PF14FL5R&apos;, ip: &apos;172.16.8.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\M1056369\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53839}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c6baeb3731523648d3ebf2169b8ab22
+*** Element info: {Using=xpath, value=.//*[@fieldref=&apos;PolicySummary.PolicyNumber&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@fieldref=&apos;PolicySummary.PolicyNumber&apos;]&quot;}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MT-PF14FL5R&apos;, ip: &apos;172.16.8.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\M1056369\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53839}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c6baeb3731523648d3ebf2169b8ab22
+*** Element info: {Using=xpath, value=.//*[@fieldref=&apos;PolicySummary.PolicyNumber&apos;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at com.policy.pac.tests.PricingPageTest.EducatioRiskManagementTest(PricingPageTest.java:138)
+</failure>
+    <system-out>Before navigating to: &apos;http://schoudhary:T@ra_1082@172.16.110.50:8080/ExpressQA/default.aspx&apos;
+Navigated to:&apos;http://schoudhary:T@ra_1082@172.16.110.50:8080/ExpressQA/default.aspx&apos;
+Trying to find Element By : By.xpath: .//a[@id=&apos;id_New&apos;]/span
+Found Element By : By.xpath: .//a[@id=&apos;id_New&apos;]/span
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (7c6baeb3731523648d3ebf2169b8ab22)] -&gt; xpath: .//a[@id=&apos;id_New&apos;]/span]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (7c6baeb3731523648d3ebf2169b8ab22)] -&gt; xpath: .//a[@id=&apos;id_New&apos;]/span]
+Trying to find Element By : By.xpath: .//div/div[label[text()=&apos;Agency:&apos;]]/following-sibling::div/div/div
+Found Element By : By.xpath: .//div/div[label[text()=&apos;Agency:&apos;]]/following-sibling::div/div/div
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (7c6baeb3731523648d3ebf2169b8ab22)] -&gt; xpath: .//div/div[label[text()=&apos;Agency:&apos;]]/following-sibling::div/div/div]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (7c6baeb3731523648d3ebf2169b8ab22)] -&gt; xpath: .//div/div[label[text()=&apos;Agency:&apos;]]/following-sibling::div/div/div]
+Trying to find Element By : By.xpath: .//li[@unselectable=&apos;on&apos; and text()=&apos;Arthur J Gallagher Risk Management Srvs, Inc (IL)&apos;]
+Found Element By : By.xpath: .//li[@unselectable=&apos;on&apos; and text()=&apos;Arthur J Gallagher Risk Management Srvs, Inc (IL)&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (7c6baeb3731523648d3ebf2169b8ab22)] -&gt; xpath: .//li[@unselectable=&apos;on&apos; and text()=&apos;Arthur J Gallagher Risk Management Srvs, Inc (IL)&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (7c6baeb3731523648d3ebf2169b8ab22)] -&gt; xpath: .//li[@unselectable=&apos;on&apos; and text()=&apos;Arthur J Gallagher Risk Management Srvs, Inc (IL)&apos;]]
+Trying to find Element By : By.xpath: .//input[@fieldref=&apos;data.AgencyID&apos;]
+Found Element By : By.xpath: .//input[@fieldref=&apos;data.AgencyID&apos;]
+Trying to find Element By : By.xpath: .//input[@fieldref=&apos;PolicyInput.WritingCompany&apos;]
+Found Element By : By.xpath: .//input[@fieldref=&apos;PolicyInput.WritingCompany&apos;]
+Trying to find Element By : By.xpath: .//input[@fieldref=&apos;PolicyInput.EffectiveDate&apos;]
+Found Element By : By.xpath: .//input[@fieldref=&apos;PolicyInput.EffectiveDate&apos;]
+Trying to find Element By : By.xpath: .//div/div[label[text()=&apos;State&apos;]]/following-sibling::div/div/div
+Found Element By : By.xpath: .//div/div[label[text()=&apos;State&apos;]]/following-sibling::div/div/div
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (7c6baeb3731523648d3ebf2169b8ab22)] -&gt; xpath: .//div/div[label[text()=&apos;State&apos;]]/following-sibling::div/div/div]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (7c6baeb3731523648d3ebf2169b8ab22)] -&gt; xpath: .//div/div[label[text()=&apos;State&apos;]]/following-sibling::div/div/div]
+Trying to find Element By : By.xpath: .//div[@fieldref=&apos;data.State&apos;]/ul/li[@unselectable=&apos;on&apos; and text()=&apos;AZ&apos;]
+Found Element By : By.xpath: .//div[@fieldref=&apos;data.State&apos;]/ul/li[@unselectable=&apos;on&apos; and text()=&apos;AZ&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (7c6baeb3731523648d3ebf2169b8ab22)] -&gt; xpath: .//div[@fieldref=&apos;data.State&apos;]/ul/li[@unselectable=&apos;on&apos; and text()=&apos;AZ&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (7c6baeb3731523648d3ebf2169b8ab22)] -&gt; xpath: .//div[@fieldref=&apos;data.State&apos;]/ul/li[@unselectable=&apos;on&apos; and text()=&apos;AZ&apos;]]
+Trying to find Element By : By.xpath: .//input[@fieldref=&apos;data.State&apos;]
+Found Element By : By.xpath: .//input[@fieldref=&apos;data.State&apos;]
+Trying to find Element By : By.xpath: .//input[@fieldref=&apos;PolicyInput.PolicyType&apos;]
+Found Element By : By.xpath: .//input[@fieldref=&apos;PolicyInput.PolicyType&apos;]
+Trying to find Element By : By.xpath: .//input[@fieldref=&apos;PolicyInput.ProductType&apos;]
+Found Element By : By.xpath: .//input[@fieldref=&apos;PolicyInput.ProductType&apos;]
+Trying to find Element By : By.xpath: .//span[contains(text(),&apos;Start&apos;)]
+Found Element By : By.xpath: .//span[contains(text(),&apos;Start&apos;)]
+Trying to find Element By : By.xpath: .//div[h2[text()=&apos;Applicant Information&apos;]]/child::div//a[contains(@id,&apos;anchorId&apos;)]
+Found Element By : By.xpath: .//div[h2[text()=&apos;Applicant Information&apos;]]/child::div//a[contains(@id,&apos;anchorId&apos;)]
+Trying to find Element By : By.xpath: .//iframe[contains(@id,&apos;dctPopup_dctPopupWindow&apos;)]
+Found Element By : By.xpath: .//iframe[contains(@id,&apos;dctPopup_dctPopupWindow&apos;)]
+Trying to find Element By : By.xpath: .//*[@fieldref=&apos;SD_PartyInput.PartyName&apos;]
+Found Element By : By.xpath: .//*[@fieldref=&apos;SD_PartyInput.PartyName&apos;]
+Trying to find Element By : By.className: g-btn-text
+Found Element By : By.className: g-btn-text
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (7c6baeb3731523648d3ebf2169b8ab22)] -&gt; class name: g-btn-text]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (7c6baeb3731523648d3ebf2169b8ab22)] -&gt; class name: g-btn-text]
+Trying to find Element By : By.xpath: .//a[@id=&apos;dctGridLink&apos; and text()=&apos;Select&apos;]
+Found Element By : By.xpath: .//a[@id=&apos;dctGridLink&apos; and text()=&apos;Select&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (7c6baeb3731523648d3ebf2169b8ab22)] -&gt; xpath: .//a[@id=&apos;dctGridLink&apos; and text()=&apos;Select&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (7c6baeb3731523648d3ebf2169b8ab22)] -&gt; xpath: .//a[@id=&apos;dctGridLink&apos; and text()=&apos;Select&apos;]]
+Trying to find Element By : By.xpath: .//div[@id=&apos;body&apos; and //h2[text()=&apos;Billing Address&apos;]]/following-sibling::div//a
+Found Element By : By.xpath: .//div[@id=&apos;body&apos; and //h2[text()=&apos;Billing Address&apos;]]/following-sibling::div//a
+Trying to find Element By : By.xpath: .//*[@fieldref=&apos;PolicyInput.RetroDate&apos;]
+Found Element By : By.xpath: .//*[@fieldref=&apos;PolicyInput.RetroDate&apos;]
+Trying to find Element By : By.xpath: .//div[h2[text()=&apos;Office Locations&apos;]]/following-sibling::div//a[contains(@id,&apos;anchorId&apos;)]
+Found Element By : By.xpath: .//div[h2[text()=&apos;Office Locations&apos;]]/following-sibling::div//a[contains(@id,&apos;anchorId&apos;)]
+Trying to find Element By : By.xpath: .//*[@fieldref=&apos;LocationInput.ZipCode&apos;]
+Found Element By : By.xpath: .//*[@fieldref=&apos;LocationInput.ZipCode&apos;]
+Trying to find Element By : By.xpath: .//div[//label[text()=&apos;# of Hours Worked&apos;]]/following-sibling::div//a[contains(@id,&apos;anchorId&apos;)]
+Found Element By : By.xpath: .//div[//label[text()=&apos;# of Hours Worked&apos;]]/following-sibling::div//a[contains(@id,&apos;anchorId&apos;)]
+Trying to find Element By : By.xpath: .//div[@id=&apos;body&apos; and //h2[text()=&apos;Office Locations&apos;]]/following-sibling::div//div[@id=&apos;next&apos;]/a
+Found Element By : By.xpath: .//div[@id=&apos;body&apos; and //h2[text()=&apos;Office Locations&apos;]]/following-sibling::div//div[@id=&apos;next&apos;]/a
+Trying to find Element By : By.xpath: .//div[//h2[text()=&apos;Included Coverages&apos;]]/following-sibling::div[@id=&apos;next&apos;]//a
+Found Element By : By.xpath: .//div[//h2[text()=&apos;Included Coverages&apos;]]/following-sibling::div[@id=&apos;next&apos;]//a
+Trying to find Element By : By.xpath: .//div[//div[text()=&apos;Risk Management&apos;]]/following-sibling::div[@id=&apos;next&apos;]//a
+Found Element By : By.xpath: .//div[//div[text()=&apos;Risk Management&apos;]]/following-sibling::div[@id=&apos;next&apos;]//a
+Trying to find Element By : By.xpath: .//li[a[text()=&apos;Payment Details&apos;]]/a
+Found Element By : By.xpath: .//li[a[text()=&apos;Payment Details&apos;]]/a
+Trying to find Element By : By.xpath: .//input[@fieldref=&apos;BillingKeys.BillClass&apos;]
+Found Element By : By.xpath: .//input[@fieldref=&apos;BillingKeys.BillClass&apos;]
+Trying to find Element By : By.xpath: .//div[//label[text()=&apos;Cash With Transaction&apos;]]/following-sibling::div//a[span[text()=&apos;Previous&apos;]]
+Found Element By : By.xpath: .//div[//label[text()=&apos;Cash With Transaction&apos;]]/following-sibling::div//a[span[text()=&apos;Previous&apos;]]
+Trying to find Element By : By.xpath: .//div[//label[text()=&apos;Total Charge&apos;]]/following-sibling::div//a[span[text()=&apos;Issue&apos;]]
+Found Element By : By.xpath: .//div[//label[text()=&apos;Total Charge&apos;]]/following-sibling::div//a[span[text()=&apos;Issue&apos;]]
+Trying to find Element By : By.xpath: .//*[@fieldref=&apos;PolicySummary.PolicyNumber&apos;]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@fieldref=&apos;PolicySummary.PolicyNumber&apos;]&quot;}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MT-PF14FL5R&apos;, ip: &apos;172.16.8.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\M1056369\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53839}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c6baeb3731523648d3ebf2169b8ab22
+*** Element info: {Using=xpath, value=.//*[@fieldref=&apos;PolicySummary.PolicyNumber&apos;]}
+</system-out>
+    <system-err>Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 48917
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 10, 2021 3:28:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.policy.pac.tests.HomePageTest" name="Navigatetonewquote" time="2.135"/>
+</testsuite>

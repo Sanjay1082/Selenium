@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.policy.pac.extendreport.ExtentReporterNG"/>
+  </listeners>
+  <test name="LibraryAPITest(failed)">
+    <classes>
+      <class name="com.libraryAPI.requests.Addbookrequest">
+        <methods>
+          <include name="AddBook" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.libraryAPI.requests.Addbookrequest -->
+    </classes>
+  </test> <!-- LibraryAPITest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

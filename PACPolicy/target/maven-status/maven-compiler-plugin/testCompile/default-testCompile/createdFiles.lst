@@ -1,0 +1,10 @@
+com\policy\pac\tests\PricingPageTest.class
+com\policy\pac\tests\LoginPageTest.class
+com\policy\pac\tests\ClassDeterminationPageTest.class
+com\policy\pac\tests\EducatioRiskManagementPageTest.class
+com\policy\pac\tests\NewQuotePageTest.class
+com\policy\pac\tests\PolicyPageTest.class
+com\policy\pac\tests\CoveragePageTest.class
+com\policy\pac\tests\HomePageTest.class
+com\policy\pac\tests\ApplicantPageTest.class
+com\policy\pac\tests\PaymentplanPageTest.class
